@@ -150,7 +150,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Chessman.cpp" />
+    <ClCompile Include="ChessmanManager.cpp" />
+    <ClCompile Include="ChessmanPosition.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chessman.h" />
+    <ClInclude Include="ChessmanManager.h" />
+    <ClInclude Include="ChessmanPosition.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
