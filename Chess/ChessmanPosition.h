@@ -15,7 +15,7 @@ public:
 	inline char getY();
 	ChessmanPosition();
 	ChessmanPosition(std::string pos);
-	inline static bool isCorrect(ChessmanPosition position);
-	inline static bool isCorrect(std::string position);
+	static bool isCorrect(ChessmanPosition position);
+	static bool isCorrect(std::string position);
 };
 

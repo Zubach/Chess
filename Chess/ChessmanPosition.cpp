@@ -41,12 +41,12 @@ ChessmanPosition::ChessmanPosition(std::string pos) {
 	setPosition(pos);
 }
 
-inline bool ChessmanPosition::isCorrect(ChessmanPosition position)
+bool ChessmanPosition::isCorrect(ChessmanPosition position)
 {
 	return position.position != "" && ((position[0] >= 'A' && position[0] <= 'H') && (position[1] >= '1' && position[1] <= '8'));
 }
 
-inline bool ChessmanPosition::isCorrect(std::string position)
+bool ChessmanPosition::isCorrect(std::string position)
 {
 	return position != "" && ((position[0] >= 'A' && position[0] <= 'H') && (position[1] >= '1' && position[1] <= '8'));
 }
