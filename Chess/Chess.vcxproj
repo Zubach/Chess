@@ -156,6 +156,7 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pawn.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chessman.h" />
@@ -163,6 +164,7 @@
     <ClInclude Include="ChessmanPosition.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Pawn.h" />
+    <ClInclude Include="TextureLoader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
