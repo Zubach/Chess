@@ -1,10 +1,19 @@
-#include <SFML/Graphics.hpp>
+#include "TextureLoader.h"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML works!");
+    
+    sf::Texture texture;
+    texture = TextureLoader::textureFromFile("images/chess.png");
+
+    sf::Sprite pawn;
+    pawn.setTexture(texture);
+    pawn.setTextureRect(sf::IntRect(10, 10, 445, 640));
+    pawn.setPosition(10, 10);
+    pawn.scale(sf::Vector2f(0.5f, 0.5f));
+
+    
 
     while (window.isOpen())
     {
@@ -16,9 +25,9 @@ int main()
         }
 
         window.clear();
-        window.draw(shape);
+        window.draw(pawn);
         window.display();
     }
-
+   
     return 0;
 }
