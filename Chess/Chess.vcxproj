@@ -153,12 +153,16 @@
     <ClCompile Include="Chessman.cpp" />
     <ClCompile Include="ChessmanManager.cpp" />
     <ClCompile Include="ChessmanPosition.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pawn.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chessman.h" />
     <ClInclude Include="ChessmanManager.h" />
     <ClInclude Include="ChessmanPosition.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Pawn.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
