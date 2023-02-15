@@ -1,11 +1,8 @@
 #pragma once
 #include "Chessman.h"
-class Pawn :
+class Bishop :
     public Chessman
-
 {
-private:
-	Pawn();
-	Pawn(Team team);
+    Bishop();
 };
 

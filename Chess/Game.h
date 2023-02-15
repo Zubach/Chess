@@ -1,6 +1,7 @@
 #pragma once
 #include "Chessman.h"
 #include <iostream> 
+#include "TextureLoader.h"
 
 class Game
 {
@@ -17,6 +18,6 @@ class Game
 			}
 		}
 	}
-	
+
 };
 

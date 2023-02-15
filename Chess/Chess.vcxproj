@@ -150,6 +150,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bishop.cpp" />
     <ClCompile Include="Chessman.cpp" />
     <ClCompile Include="ChessmanManager.cpp" />
     <ClCompile Include="ChessmanPosition.cpp" />
@@ -159,6 +160,7 @@
     <ClCompile Include="TextureLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bishop.h" />
     <ClInclude Include="Chessman.h" />
     <ClInclude Include="ChessmanManager.h" />
     <ClInclude Include="ChessmanPosition.h" />
