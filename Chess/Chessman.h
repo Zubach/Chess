@@ -9,9 +9,11 @@ enum Team
 	Black, White
 };
 
+
 class Chessman abstract
 {
 protected:
+	
 
 	ChessmanPosition position;
 	sf::Sprite sprite;
@@ -22,6 +24,7 @@ protected:
 	Chessman();
 	Chessman(Team team);
 	
+
 	virtual void moveTo(ChessmanPosition position);
 	inline void clearMovementPositions();
 	inline void addMovementPositions(std::vector<std::string> positions);

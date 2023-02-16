@@ -1,10 +1,10 @@
 #pragma once
 #include "Chessman.h"
-class Pawn :
+class Rook :
     public Chessman
 {
 private:
-	Pawn();
-	Pawn(Team team, sf::Texture &texture);
+    Rook();
+    Rook(Team team, sf::Texture& texture);
 };
 
